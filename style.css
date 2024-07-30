@@ -113,6 +113,10 @@ a:visited {
   font-weight: 800;
 }
 
+.form--transition {
+  transition: all 0.5s, transform 1ms;
+}
+
 .form {
   background-color: var(--color-dark--2);
   border-radius: 5px;
@@ -125,7 +129,6 @@ a:visited {
 
   /* Match height and activity boxes */
   height: 9.25rem;
-  transition: all 0.5s, transform 1ms;
 }
 
 .form.hidden {
